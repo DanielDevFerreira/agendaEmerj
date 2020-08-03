@@ -1,0 +1,22 @@
+/*@media print {
+  * {
+      background: blue;
+      color: blue;
+      text-shadow: none; 
+      filter: none;
+     -ms-filter: none;
+      
+  }
+}*/
+
+@media print {
+    img {display: none; }
+  .navbar { display: none; }
+    footer{display: none;}
+    #users_online{display: none;}
+    #nomeaud{display: none;}
+    .btn-success{display: none;}
+   
+    
+ }
+

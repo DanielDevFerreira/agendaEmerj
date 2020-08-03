@@ -1,0 +1,229 @@
+#sub{
+    font-family: 'Francois One', sans-serif;
+    font-size: 160%;
+}
+
+body {
+	
+	padding: 0;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 150%;
+}
+
+#calendar {
+	max-width: 100%;
+	margin: 200 auto;
+   
+}
+
+main{
+    margin: 0 auto;
+    height: auto;
+}
+
+.navbar{
+    background-color:#0c344c;
+    padding: 0.7%;
+  
+}
+
+#users_online{
+    float: right;
+    margin-left: 300px;
+    
+}
+
+#bemvindo_mobile{
+    display: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:896px){
+    #bemvindo_mobile{
+    display: block;
+    margin-top: 20px;
+    font-size: 100%;
+    
+}
+    #users_online img{
+        width: 10px;
+        display: none;
+    }
+    
+   #users_online{
+    font-size: 100%;
+    margin-top: 80px;
+    margin-left: 48%;
+    float: right;
+    display: none;
+    
+    
+}
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 130%;
+    margin: 0px 0px 0px 0px;
+    padding: 14px 30px 14px 0px;
+    border-right: 2px solid #fff;
+}
+
+.navbar-nav{
+    font-family: 'Francois One', sans-serif;
+     font-size: 120%;
+    
+}
+
+.nav.navbar-nav li a:focus{
+   background-color:  #87CEFA;
+    
+}
+
+.nav.navbar-nav li a:hover {
+  background-color: #87CEFA;
+    
+    width: 100%;
+
+}
+
+#sair{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 60px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 80%;
+    padding: 10px;
+    
+}
+
+#bemvindo{
+    color: white;
+    margin-right: 60px;
+}
+
+.visualizar{
+	display: block;
+}
+
+.form{
+	display: none;
+}
+
+#legenda{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+#faixa{
+    border-radius: 50px 20px;
+    padding: 0%;
+    /*background:#87CEFA;*/
+    background:#0c344c;
+
+    color: white;
+    margin-top:20px; 
+    text-shadow: 0px 6px 5px #000;
+    font-family: 'Patua One', cursive;
+    font-size: 140%;
+}
+
+
+.delete {
+    display: none;
+    
+}
+
+.table-responsive{
+    width: 55%;
+    font-size: 85%;
+  
+}
+
+#menu-btn{
+    display: none;
+}
+
+#menu-mobile{
+    display: none;
+}
+
+footer {
+    color: white;
+    background-color:#0c344c;
+    text-align:center;
+    clear: both;
+    left: 0;
+    position: absolute;
+    padding: 1%;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#text1, #text2{
+    margin-right: 36%;
+    margin-top: 1%;
+}
+
+@media only screen and (min-width:900px) {
+  #imagem_mobile{
+      display: none;
+    }
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.nav-list li a:before {
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+footer img {
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+
+}
+
+.rights{
+    margin-top: 5%;
+}
